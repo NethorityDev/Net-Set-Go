@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.39" height="28" viewBox="0 0 20.39 28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-13.321" y1="9.145" x2="-13.321" y2="8.231" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#263238" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#263238" stop-opacity="0.02"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.019" cy="0.967" r="1.177" gradientTransform="matrix(1.374, 0, 0, -1, 1.8, 3.295)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.102"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="google_sheets" transform="translate(-21.81 -15)">
+    <path id="Path_82" data-name="Path 82" d="M37.72,19.48l4.48,3.181v18.48A1.921,1.921,0,0,1,40.262,43H23.72a1.921,1.921,0,0,1-1.91-1.91V16.91A1.921,1.921,0,0,1,23.72,15H34.539Z" transform="translate(0 0)" fill="#0f9d58"/>
+    <path id="Path_83" data-name="Path 83" d="M30.92,39.44v9.223H41.1V39.44Zm4.452,7.952H32.191V45.8h3.181Zm0-2.542H32.191v-1.59h3.181Zm0-2.548H32.191v-1.59h3.181Zm4.446,5.09H36.638V45.8h3.181Zm0-2.542H36.638v-1.59h3.181Zm0-2.548H36.638v-1.59h3.181Z" transform="translate(-4.008 -10.754)" fill="#f1f1f1"/>
+    <path id="Path_84" data-name="Path 84" d="M52.624,28.2v6.518L45.54,27.64Z" transform="translate(-10.441 -5.562)" fill="url(#linear-gradient)"/>
+    <path id="Path_85" data-name="Path 85" d="M52.2,22.638H46.5a1.91,1.91,0,0,1-1.915-1.91V15Z" transform="translate(-10.019 0)" fill="#87ceac"/>
+    <path id="Path_86" data-name="Path 86" d="M34.539,15v.157H23.72a1.921,1.921,0,0,0-1.91,1.91V16.91A1.921,1.921,0,0,1,23.72,15Z" transform="translate(0 0)" fill="#fff" opacity="0.2"/>
+    <path id="Path_87" data-name="Path 87" d="M42.183,61.31v.157a1.921,1.921,0,0,1-1.91,1.91H23.72a1.921,1.921,0,0,1-1.91-1.91V61.31a1.921,1.921,0,0,0,1.91,1.91H40.273a1.915,1.915,0,0,0,1.91-1.91Z" transform="translate(0 -20.376)" fill="#263238" opacity="0.2"/>
+    <path id="Path_88" data-name="Path 88" d="M52.2,27.14V27.3H46.5a1.91,1.91,0,0,1-1.915-1.91V25.23A1.91,1.91,0,0,0,46.5,27.14Z" transform="translate(-10.019 -4.501)" fill="#263238" opacity="0.1"/>
+    <path id="Path_89" data-name="Path 89" d="M42.183,22.638v18.48A1.921,1.921,0,0,1,40.273,43H23.72a1.921,1.921,0,0,1-1.91-1.91V16.91A1.921,1.921,0,0,1,23.72,15H34.539Z" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>

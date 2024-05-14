@@ -1,0 +1,402 @@
+:root {
+    --pink: #F224F2;
+    --text-color: #191919; 
+  }
+body{
+    font-family: 'Prompt';
+    color: var(--text-color);
+}
+
+.pink-color{
+    background-color: var(--pink);
+    color: #fff;
+}
+.white-color{
+    background-color: #FFFFFF;
+    color: var(--text-color);
+}
+.black-color{
+    background-color: var(--text-color);
+    color: #fff;
+}
+.text-white-color{
+    color: #fff !important;
+}
+.animated-section {
+    opacity: 0; /* Initially set opacity to 0 to hide the element */
+}
+
+/* Add the following class to display the element after the animation is applied */
+.animated-section.animate-on-scroll {
+    opacity: 1;
+}
+header {
+    padding: 10px 0px;
+}
+.netsetgo-header-wrp .navbar-brand img {
+    width: 70%;
+}
+.netsetgo-header-wrp a.nav-link {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--text-color);
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+.netsetgo-header-wrp a.nav-link:hover {
+    color: var(--pink);
+}
+.common-button {
+    padding: 10px 30px 10px 30px;
+    border: unset;
+    border-radius: 3px;
+}
+.common-button.pink-color:hover {
+    background-color: #191919;
+    color: #fff;
+    text-decoration: unset;
+}
+.common-button.white-color:hover, .common-button.black-color:hover {
+    background-color: #f224f2;
+    color: #fff;
+    text-decoration: unset;
+}
+.banner h2 {
+    color: #FFFFFF;
+    font-family: "Prompt", Sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    line-height: 75px;
+}
+.banner {
+    padding: 100px 0px;
+}
+
+.reporting-section {
+    padding: 80px 0px;
+}
+.common-heading {
+    color: #191919;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.inner-header-wrp {
+    width: 100%;
+}
+.green-line {
+    width: 60px;
+    height: 2px;
+    background-color: #17BF98;
+    margin-bottom: 30px;
+}
+.common-p {
+    
+    color: #666666;
+    font-family: "Prompt", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: var(--container-widget-width, 80% );
+    max-width: 80%;
+    --container-widget-width: 80%;
+    --container-widget-flex-grow: 0;
+    margin: auto;
+}
+.reporting-section  .card-img-top {
+    width: 15%;
+}
+.reporting-card-bg-color{
+    background-color: #F2F2F2;
+}
+.reporting-section .card {
+    padding: 50px 0px;
+    border: unset;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgb(87 87 87 / 21%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+.reporting-inner-wrp {
+    margin-top: 60px;
+}
+.reporting-inner-wrp .card-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--text-color);
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+.reporting-inner-wrp .card-text {
+    color: #666666;
+    font-family: "Prompt";
+    font-size: 16px;
+    font-weight: 400;
+}
+/* .reporting-card-bg-color:hover{
+    background-color:#fff !important;
+} */
+.reporting-section .card:hover {
+    
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10) !important;
+}
+.reporting-inner-wrp .card:hover {
+    background-color:#F2F2F2;
+}
+.comprehensive-data--wrp {
+    padding: 80px 0px;
+    background-color: #f2f2f2;
+}
+.comprehensive-data-inner-wrp {
+    margin-top: 50px;
+}
+.comprehensive-data-inner-wrp .card-body {
+    padding: 0px;
+}
+.comprehensive-data-inner-wrp .custom-card {
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px 15px 20px;
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+}
+.comprehensive-data-inner-wrp .card-title {
+    font-size: 17px;
+    font-weight: normal;
+}
+.comprehensive-data-inner-wrp .custom-card {
+    height: 80px;
+    align-items: center;
+}
+.comprehensive-data-inner-wrp .col-md-3 {
+    padding: 10px;
+}
+.comprehensive-data-inner-wrp .card-title {
+    margin: 0;
+}
+.custom-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(131, 131, 131, 0.37);
+}
+.bottom-button {
+    margin-top: 40px;
+}
+.white-lable-wrp {
+    padding-top: 80px;
+}
+.features-main-wrp{
+    padding: 80px 0px;
+}
+.features-main-wrp hr.gray-line {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.features-main-wrp .features-p {
+    color: #666666;
+    font-family: "Prompt", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.features-wrp hr.green-line {
+    margin-left: 0;
+}
+.features-col-wrp.feature-bg-color {
+    background-color: #f2f2f2;
+    padding: 80px 0px;
+}
+.features-col-wrp.first-features-wrp {
+    padding-bottom: 80px;
+}
+.features-col-wrp.third-features-wrp {
+    padding-top: 80px;
+}
+
+section.footer {
+    background-color: #191919;
+    padding: 60px 0px;
+}
+.footer-logo img {
+    width: 250px;
+}
+.footer-menu-wrp ul {
+    padding: 0px;
+}
+.footer-menu-wrp li a {
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+}
+.footer-menu-wrp ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.footer-menu-wrp {
+    margin-top: 30px;
+}
+.copyright-text{
+    text-align: center;
+    color: #B1B1B1;
+    font-family: "Prompt", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-section-wrp{
+    padding: 80px 0px;
+}
+section.contact-section-wrp {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+form.contact-form {
+    margin-top: 40px !important;
+    width: 70%;
+    margin: auto;
+}
+.contact-form .form-control {
+    padding: 25px 20px;
+}
+.contact-form button.common-button {
+    padding: 12px 70px;
+    margin-top: 30px;
+}
+
+/* testimonials start*/
+.testimonials-section-main .col-12.slider_content {
+    margin-top: 22px;
+    margin-bottom: 100px;
+}
+.pink-line {
+    border-bottom: 2px solid #F224F2;
+    width: 6%;
+}
+.testimonials-section-main .quote_image_main.d-flex {
+    margin-top: 40px;
+}
+.testimonials-section-main .author.text-center {
+    padding: 10px 0;
+}
+.testimonial_review_slider .slick-dots li.slick-active button:before{
+    background: #F224F2;
+    border-radius: 100%;
+    outline: 1px solid #707070;
+    outline-offset: 3px;
+    color: #F224F2;
+    font-size: 0;
+    width: 21px;
+    height: 21px;
+}
+.testimonial_review_slider .slick-dots li button:before{
+    background: #fff;
+    border-radius: 100%;
+    outline: 1px solid #707070;
+    outline-offset: 3px;
+    color: #fff;
+    font-size: 0;
+    width: 21px;
+    height: 21px;
+}
+.testimonial_review_slider .slick-dots li{
+    margin: 0 10px;
+}
+/* testimonials end */
+.trust-badge-section-main .logo-item img {
+    width: auto;
+}
+.trust-badge-section-main {
+    background: #f2f2f2;
+    padding-top: 95px;
+}
+.trust-badge-section-main .col-12 p {
+    margin-top: 30px;
+}
+.trust-badge-section-main .logo-image-stripe {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.testimonials-section-main .common-heading {
+    margin-top: 95px;
+}
+.testimonials-section-main .slick-dots {
+    transform: translateX(-1%);
+}
+.white-lable-wrp .close {
+    float: right;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 991px) {
+    .trust-badge-section-main {
+        padding-top: 65px;
+    }
+    .trust-badge-section-main .logo-image-stripe {
+        margin-bottom: 70px;
+    }
+    .testimonials-section-main .common-heading {
+        margin-top: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .inner-header-wrp {
+        padding: 0px 15px;
+    }
+    /* .navbar-light .navbar-brand {
+       width: calc(100% - 78px);
+    } */
+    .banner h2 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .banner-inner-image-wrp {
+        margin-top: 30px;
+    }
+    .common-heading{
+        font-size: 28px;
+    }
+    .testimonials-section-main .slick-dots {
+        transform: translateX(-7%);
+    }
+    .features-content-wrp {
+        margin-bottom: 50px !important;
+    }
+    form.contact-form {
+        width: 100%;
+    }
+    .banner-text {
+        text-align: center;
+    }
+   
+    .logo-and-btn-wrp{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .netsetgo-header-wrp .nav-item {
+        border-bottom: 1px solid #eaeaea;
+    }
+    .netsetgo-header-wrp #navbarSupportedContent {
+        padding-top: 15px;
+      }
+      .margin-bttom{
+        margin-bottom: 30px;
+      }
+      .comprehensive-data-inner-wrp .col-md-3 {
+        
+        width: 50%;
+    }
+    /* button.navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    div#navbarNav {
+        position: absolute;
+        z-index: 999;
+        top: 52px;
+        right: 0;
+        background: #fff;
+    } */
+}
